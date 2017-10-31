@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>亲，快到碗里来</title>
+		<link rel="shortcut icon" href="img/c.ico" type="image/x-icon"/> 
+		<link href="css/bootstrap.css" rel="stylesheet"/>
+		<link href="css/imgs.css" rel="stylesheet"/>
+		<script src="js/jquery-1.11.1.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</head>
+	<body>
+		<div class="bg-primary head">
+			<ul class="ul1">
+				<li class="dropdown"><a href="javascript:void(0);" 
+					class="dropdown-toggle" data-toggle="dropdown">分享歌曲
+					<span class="glyphicon glyphicon-heart"></span></a>
+				<ul class="dropdown-menu">
+					<li>天地孤影任我行</li>
+					<li>寂寞花火</li>
+					<li>一生所爱</li>
+					<li>我的未来不是梦</li>
+					</ul>
+				</li>
+				
+				<li class="dropdown"><a href="javascript:void(0);" 
+					class="dropdown-toggle" data-toggle="dropdown">电影推荐
+					<span class="glyphicon glyphicon-heart"></span></a>
+				<ul class="dropdown-menu">
+					<li>东邪西毒</li>
+					<li>大话西游</li>
+					<li>逆光飞翔</li>
+					<li>喜剧之王</li>
+					</ul>
+				</li>
+				
+				<li class="dropdown"><a href="javascript:void(0);" 
+					class="dropdown-toggle" data-toggle="dropdown">明星列表
+					<span class="glyphicon glyphicon-heart"></span></a>
+				<ul class="dropdown-menu">
+					<li>林青霞</li>
+					<li>张学友</li>
+					<li>梁朝伟</li>
+					<li>王祖贤</li>
+					</ul>
+				</li>
+				
+				<li class="dropdown"><a href="javascript:void(0);" 
+					class="dropdown-toggle" data-toggle="dropdown">动漫
+					<span class="glyphicon glyphicon-heart"></span></a>
+				<ul class="dropdown-menu">
+					<li>你的名字</li>
+					<li>秒速五厘米</li>
+					<li>秦时明月</li>
+					<li>文学少女</li>
+					</ul>
+				</li>
+				
+				<li class="dropdown"><a href="javascript:void(0);" 
+					class="dropdown-toggle" data-toggle="dropdown">情感世界
+					<span class="glyphicon glyphicon-heart"></span></a>
+				<ul class="dropdown-menu">
+					<li>你的世界你拥有</li>
+					<li>我的世界你别来</li>
+					</ul>
+				</li>
+				
+				
+				</ul>
+			</div>
+			
+			<!--图片，文字对图片进行品萍-->
+			<div class="middle">
+			<div class="middle-top">
+				<div class="left">
+					<img src="img/1.jpg" title="花好月圆"/>
+					</div>
+					<div class="right">
+						<span class="right-span"></span>
+						<div class="right-oDiv">
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									<div class="panel-title">评论前先阅读如下内容：</div>
+								</div>
+								<div class="panel-body">
+									<p>点击评论按钮，依次填入信息，请勿使用不文明语言</p>
+									<p>评论后会在页面的底部进行显示</p>
+									<p>大家若觉得我那块做的不好，可以点击交流，加我为好友，记得验证信息填为“交友”,
+									不然我不会同意奥
+									<p>如果有兴趣交流的同学，可以点击，交流按钮，加我为好友</p>
+									<p>欢迎大家积极的参加评论
+									<p>(温馨提示，若大家觉得文字与图片的内容不符，请不要见怪，
+										本人只是顺便再网上找的文字和图片，希望大家多多指教网页布局之不足)
+								</div>
+								<div class="panel-footer">
+									<a class="btn btn-primary" data-toggle="modal" data-target="#head">评论</a>
+									<a class="btn btn-primary pull-right" data-toggle="modal" data-target="#kop" id="img-p">交流</a>
+								</div>
+								<div class="modal fade" id="kop" data-backdrop="static" data-keyboard="false">
+									
+									<div class="modal-dialog">
+								    <div class="modal-content">
+								    	<div class="modal-header bg-primary">
+								    		<a class="btn btn-default close" data-dismiss="modal">&times;</a>
+								    		<p class="modal-title">扫一扫以下的二维码，加我</p>
+								    	</div>
+								    	<div class="modal-body" id="imgp">
+								    		<img src="img/b.jpg"/>
+								    	</div>
+								    	<div class="modal-footer">
+								    		<a class="btn btn-primary" class="close"data-dismiss="modal">确定</a>
+								    	</div>
+								    	</div>
+									</div>
+									
+									</div>
+								<div class="modal fade" id="head" data-backdrop="static" data-keyboard="false">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header bg-primary">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<div class="modal-title">评论区：</div>
+											</div>
+											<div class="modal-body">
+												<div class="form-group" id="json">
+													<label>用户名：</label>
+													<input type="text" name="username" id="username" 
+														placeholder="请填写用户名" class="form-control"/>
+														<label>评论内容:</label>
+														<input type="text" placeholder="请输入评论内容" name="content" id="content"class="form-control"/>
+													</div>
+											</div>
+											<div class="modal-footer" id="modal">
+												<a class="btn btn-primary" class="close" data-dismiss="modal">确定</a>
+												<a class="btn btn-primary">更改内容</a>
+											</div>
+											</div>
+										</div>
+									
+									</div>
+								</div>
+						</div>
+						</div>
+				</div>
+				<div class="middle-bottom">
+					<ul class="middle-ul">
+						<li><img src="img/1.jpg" title="花好月圆"/></li>
+						<li><img src="img/2.jpg"title="杨柳依依"/></li>
+						<li><img src="img/3.jpg"title="含情脉脉"/></li>
+						<li><img src="img/4.jpg"title="云胡不喜"/></li>
+						<li><img src="img/5.jpg"title="窈窕淑女"/></li>
+						<li><img src="img/6.jpg"title="蒹葭苍苍"/></li>
+						<li><img src="img/7.jpg"title="白露为霜"/></li>
+						<li><img src="img/8.jpg"title="断桥残雪"/></li>
+						<li><img src="img/9.jpg"title="白衣飘飘"/></li>
+						<li><img src="img/10.jpg"title="飘雪"/></li>
+						<li><img src="img/11.jpg"title="断桥"/></li>
+						<li><img src="img/12.jpg"title="绿莺"/></li>
+						<li><img src="img/13.jpg"title="沧海一粟"/></li>
+						<li><img src="img/14.jpg"title="雪飘人间"/></li>
+						<li><img src="img/15.jpg"title="不负如来不负卿"/></li>
+						<li><img src="img/16.jpg"title="世间安得双全法"/></li>
+						<li><img src="img/17.jpg"title="悠悠爱河"/></li>
+						<li><img src="img/18.jpg"title="一日不见兮"/></li>
+						<li><img src="img/19.jpg"title="思之如狂"/></li>
+						<li><img src="img/20.jpg"title="有美一人兮"/></li>
+						<li><img src="img/21.jpg"title="见之不忘"/></li>
+						<li><img src="img/22.jpg"title="一日不见兮"/></li>
+						<li><img src="img/23.jpg"title="凤飞翱翔兮"/></li>
+						<li><img src="img/24.jpg"title="四海求凰"/></li>
+						<li><img src="img/25.jpg"title="无奈佳人兮"/></li>
+						<li><img src="img/26.jpg"title="不在东墙"/></li>
+						<li><img src="img/27.jpg"title="将琴代语兮"/></li>
+						<li><img src="img/28.jpg"title="聊写衷肠"/></li>
+						<li><img src="img/29.jpg"title="何时见许兮，慰我彷徨"/></li>
+						<li><img src="img/30.jpg"title="悠悠我心"/></li>
+						</ul>
+					</div>
+				</div>
+				
+				<!--文字品评，品论区-->
+				<div class="footer">
+					<div class="footer-left">
+						<div class="panel panel-primary">
+							<div class="panel-heading"><div class="panel-title">评论区域</div></div>
+							<div class="panel-body">
+								<ul class="list-group" id="panel">
+								
+									</ul>
+							</div>
+							<div class="panel-footer">
+								<a class="text-primary text-center">评论下再走吧！！！</a>
+								<a class="btn btn-primary" data-toggle="modal" data-target="#mop" id="target">查看更多</a>
+								</div>
+								
+								<div class="modal fade" id="mop" data-backdrop="static" data-keyboard="false">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header bg-primary">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<div class="modal-title">这里呈现的将会更多</div>
+											</div>
+											<div class="modal-body">
+												<ul class="list-group" id="mm">
+													
+													</ul>
+											</div>
+											<div class="modal-footer">
+												<a href="javascript:void(0);" class="btn btn-primary pull-right" class="close" data-dismiss="modal">确定</a>
+											</div>
+											</div>
+										</div>
+									</div>
+							</div>
+					</div>
+	
+					</div>
+	</body>
+			<script src="js/imgs.js"></script>
+</html>

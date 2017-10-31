@@ -1,0 +1,43 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+#login {
+	width: 400px;
+	margin: 20px auto;
+}
+
+.hp {
+	display: none;
+}
+
+.modal-ul li {
+	width: 100px;
+	height: 100px;
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	transform-style: preserve-3d;
+	perspective: 800px;
+	border: 1px solid deepskyblue;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.modal-ul li img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	transition: all 1s;
+	transform: rotateY(0deg);
+}
+
+.modal-ul li:hover img {
+	transform: rotateY(180deg);
+}
+#fr_a .text-primary{
+	text-decoration: none;
+	cursor:pointer;
+}

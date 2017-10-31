@@ -1,0 +1,139 @@
+*{padding:0px;
+margin:0px;}
+.head{
+	height:50px;
+	line-height:50px;
+}
+.ul1{
+	width:800px;
+	margin:0px auto;
+	height:50px;
+}
+.ul1>li{
+	list-style:none;
+	float:left;
+	margin-right:47px;
+	line-height:50px;
+	margin-left:30px;
+	text-align:center;
+}
+.ul1>li>a{
+	text-decoration:none;
+	color:white;
+	font-size:15px;
+}
+.dropdown-menu{
+	width:150px;
+}
+.dropdown-menu li{
+	color:black;
+	text-align:center;
+}
+.ul1>li:hover .dropdown-menu {
+	animation: 1s amp linear;
+}
+@keyframes  amp{
+	0%{
+		transform: translateY(-20px);
+		opacity:0;
+	}
+	100%{
+	transform: translateY(0px);
+		opacity:1;	
+	}
+}
+.middle-top{
+	width:100%;
+	height:400px;
+	position:relative;
+	background:lightsteelblue;
+}
+.left{
+position:absolute;
+left:0px;
+top:0px;
+width:20%;
+border-radius:5px;
+height:	400px;
+padding:10px;
+border:1px solid dodgerblue;
+background:white;
+overflow:hidden;
+transition:all 1s;
+}
+.left:hover{
+	box-shadow:2px 2px 5px 5px lightskyblue;
+	-webkit-box-shadow:2px 2px 5px 5px lightskyblue;
+}
+.left img{
+	height:380px;
+	width:100%;
+	border-radius:10px;
+	cursor:pointer;
+}
+.right{
+	width:80%;
+	position:absolute;
+	right:0px;
+	height:400px;
+	top:0px;
+}
+.right-span{
+	width:40%;
+	display:block;
+	left:40px;
+	top:5px;
+	position:absolute;
+	height:390px;
+	border-radius:10px;
+	background:white;
+	color:black;
+	box-shadow:0px 0px 5px 5px papayawhip;
+	font-size:15px;
+	padding:10px;
+}
+.right-oDiv{
+	position:absolute;
+	width:400px;
+	height:390px;
+	top:10px;
+	right:50px;
+}
+.middle-bottom{
+	height:
+}
+.middle-ul{
+	overflow:hidden;
+	width:1300px;
+	margin:2px auto;
+}
+.middle-ul li{
+	list-style:none;
+	float:left;
+	width:200px;
+	height:200px;
+	overflow:hidden;
+	border-radius:50%;
+	margin:10px 10px 0px 40px;
+	cursor:pointer;
+	transition:all 2s;
+	-webkit-transition:all 2s;
+}
+.middle-ul li:hover{
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	box-shadow:0px 0px 2px 5px lightskyblue;
+	-webkit-box-shadow:0px 0px 2px 5px lightskyblue;
+}
+.middle-ul li img{
+	width:200px;
+	height:200px;
+}
+.footer{
+	margin-top:20px;
+	position:relative;
+}
+.glyphicon-trash{
+	color:red;
+	font-size:15px;
+}

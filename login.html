@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>亲，快到碗里来</title>
+		<link rel="shortcut icon" href="img/c.ico" type="image/x-icon"/> 
+		<link href="css/bootstrap.css" rel="stylesheet"/>
+		<link href="css/login.css" rel="stylesheet"/>
+		<script src="js/jquery-1.11.1.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/login.js"></script>
+	</head>
+	<body class="bg-info">
+		<div class="container-fluid">
+		<div class="panel panel-primary" id="login">
+			<div class="panel-heading">
+				<div class="panel-title">
+					这是一个登录的界面
+					</div>
+				</div>
+				<div class="panel-body">
+					<div class="form-group">
+						<label>用户名：</label>
+						<input type="text" name="username" id="username" class="form-control"placeholder="请输入用户名"/>
+						<div class="alert alert-danger hp">用户名错误</div>
+						<label>用户名：</label>
+						<input type="password" name="password" id="password" class="form-control"placeholder="请输入密码"/>
+	                     <div class="alert alert-danger hp">密码错误</div>
+						</div>
+					<a class="text-primary">忘记密码了吗？</a>
+					<a class="btn btn-primary pull-right" data-toggle="modal" id="main">登录</a>
+				</div>
+					<div class="panel-footer" id="fr_a">
+						<a class="text-primary">没有注册的用户，请注册后再进行登录！！</a>
+						<a class="text-primary pull-right" href="sig-in.html">注册</a>
+						</div>
+						
+						<div class="modal fade" id="modal" data-backdrop="static" data-keyboard="false">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header bg-primary">
+							<a href="javascript:void(0);" class="close" data-dismiss="modal">&times;</a>
+							<div class="modal-title">请选取你登录的图像</div></div>
+						<div class="modal-body">
+							<ul class="modal-ul">
+								
+								</ul>
+						</div>
+						<div class="modal-footer">
+							<a href="javascript:void(0);" class="btn btn-primary" data-dismiss="modal" id="hello">确定</a>
+						</div>
+					</div>
+					</div>
+				</div>
+			
+			</div>
+			
+			
+			
+			</div>
+	</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>亲，快到碗里来</title>
+		<link rel="shortcut icon" href="img/c.ico" type="image/x-icon"/> 
+		<link href="css/bootstrap.css" rel="stylesheet"/>
+		<link href="css/sig-in.css" rel="stylesheet"/>
+		<script src="js/jquery-1.11.1.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/sig-in.js"></script>
+	<body class="bg-info">
+		<div class="container-fluid">
+			<div class="panel panel-primary" id="sig-in">
+			
+			<div class="panel panel-heading">
+				<div class="panel-title">
+					这是一个注册信息的界面
+					</div>
+				</div>
+				<div class="panel-body">
+					<div class="form-group">
+						<label>用户名:</label>
+						<input type="text" name="username" id="username" class="form-control"/>
+						<div class="alert alert-info  head">用户名不能为空且用户名不宜过长，设置自己不易忘记的！</div>
+						<label>密码：</label>
+						<input type="password" name="password" id="password" class="form-control"/>
+						<div class="alert alert-info head">密码不能为空且密码设置不能超过12位不少于6位</div>
+						<label>确认密码：</label>
+						<input type="password" name="password" id="password-true" class="form-control"/>
+						<div class="alert alert-info head">这一次的密码与上一次的密码不同，请从新填写</div>
+						<label>邮箱：</label>
+						<input type="email" id="eamil" name="eamil" class="form-control"/>
+						<div class="alert alert-info head">邮箱格式不正确</div>
+						</div>
+						<a class="btn btn-primary" id="reset">重新填写</a>
+						<a class="btn btn-primary pull-right" id="form-a">提交数据</a>
+					</div>
+					
+					<div class="panel-footer text-center">
+						<a class="text-primary">奴家等你很久啦，怎么现在才来啊</a>
+						</div>
+			
+			
+			</div>
+			</div>
+	</body>
+</html>
